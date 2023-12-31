@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+   <style>
+    body{
+        background: gray;
+    }
+    
+    .container{
+        background-color: aliceblue;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 20px;
+        margin-top: 100px;
+        width: 400px;
+      
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .user-page{
+        margin-bottom: 20px;
+    }
+    .user-page label{
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .user-page input{
+        width: 100%;
+        padding: 8px;
+        border-radius: 3px;
+        border: 1px solid black;
+    }
+
+    .user-page select{
+        width: 100%;
+        padding:8px ;
+        border-radius: 3px;
+        border: 1px solid black;
+    }
+
+    .user-page input[type="submit"] {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    .user-page input[type="submit"]:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+       
+            <h2>SignUp</h2>
+            <form action="">
+                <div class="user-page">
+                    <label for="">Name</label>
+                    <input type="text" name="" id="">
+                </div>
+
+                <div class="user-page">
+                    <label for="">Batch</label>
+                    <select name="batch" id="batch">
+                        <option value="batch1">sigma1</option>
+                        <option value="batch2">sigma2</option>
+                    </select>
+                </div>
+
+                <div class="user-page">
+                    <label for="">Age</label>
+                    <input type="text">
+                </div>
+
+                <div class="user-page">
+                    <label for="">Email</label>
+                    <input type="email" name="" id="">
+                </div>
+
+                <div class="user-page">
+                    <label for="">Password</label>
+                   <input type="text">
+                </div>
+
+                <div class="user-page">
+                    <input type="submit" value="Signup">
+                </div>
+            </form>
+        
+    </div>
+</body>
+</html>
